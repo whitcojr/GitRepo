@@ -15,6 +15,9 @@ namespace GitRepo
             Console.WriteLine("Price of my apple is " + myApple.Price); // getter
             myApple.Color = "red";
             Console.WriteLine("Color of my apple is " + myApple.Color);
+            myApple.Weight = "150"; 
+            Console.WriteLine("Weight of my apple is " + myApple.Weight + "g"); // getter
+
         }
     }
 }
